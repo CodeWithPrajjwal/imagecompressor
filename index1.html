@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compress Your Image Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+    <div class="header-lft">
+        <div class="logo"></div>
+    </div>
+        <div class="header-rt">
+            <ul class="list">
+                <a href="#"><li class="image">Compress Single</li></a>
+                <a href="index2.html"><li class="folder">Compress Multiple</li></a>
+            </ul>
+        </div>
+    </div>
+    <section>
+    <div class="upload">
+        <label class="label" for="fileUpload">Choose Image To Compress</label>
+        <div id="wrapper_upload">
+            <input type="file" name="fileUpload" id ="input" accept=".jpg, .png, .jpeg" >
+        </div>
+    </div>
+    <div class="download">
+          <div id="wrapper_download"></div>
+    </div>
+    </section>
+</body>
+<script src=
+"https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js">
+   </script>
+<script src="compress.js"></script>
+</html> 

@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+.header-lft,.header-rt{
+    width: 50vw;
+    padding: 10px 10px;
+}
+
+.list{
+    float: right;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    margin-left: 20px;
+    border-style: double;
+    color: brown;
+    border-radius: 20px;
+    padding: 5px;
+}
+.header{
+    border-width: 0 0 0.5px 0;
+    border-color: rgb(255, 225, 0,0.4);
+    border-style: solid;
+}
+.logo{
+    background-image: url(LOGO1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 131.77px;
+    height: 60px;
+}
+section{
+    margin-top: 10px ;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1{  
+    width: max-content;
+    padding: 8px 24px;
+    color:rgb(255, 225, 0);
+    border-radius: 20px;
+    font-family: 'Silkscreen', cursive;
+    font-size: 2.5vw;
+}
+li{
+    color: crimson;
+    font-family: 'Silkscreen', cursive;
+    list-style: none;
+
+}
+li:hover{
+    color: black;
+    box-shadow: inset;
+    background-color: rgb(138, 43, 226,0.95);
+    text-shadow: white;
+    cursor: pointer;
+
+}
+.logo:hover{
+    background-color: rgb(138, 43, 226,0.2);
+    cursor: pointer;
+}
+ul.list,.header{
+    display: flex;
+}
+#input{
+    color: crimson;
+    font-family: 'Silkscreen', cursive;
+
+}
+.upload{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.download{
+    margin-top: 15px;
+}
+#wrapper_upload{
+    align-items: center;
+    justify-content: center;
+    border-style: double;
+    border-color: rgb(165, 42, 42 , 0.7);
+    border-radius: 10px;
+    height: 400px;
+    width: 300px;
+    max-width: 500px;
+    max-height: 500px;
+}
+
+label{
+    color:blueviolet;
+    border-radius: 20px;
+    font-family: 'Silkscreen', cursive;
+    font-size: 2.5vw;
+}
+.wrapper_download{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column-reverse;
+    border-style: double;
+    border-color: rgb(165, 42, 42 , 0.7);
+    border-radius: 10px;
+    height: 400px;
+    width: 300px;
+}
+a{
+    text-decoration: none;
+}
