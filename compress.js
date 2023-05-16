@@ -61,13 +61,18 @@ input.addEventListener("change", (event) => {
             imageUpload.src = imageUpload_url
 
 
-            document.getElementById("wrapper_download").appendChild(newImage)
+        document.getElementById("wrapper_download").appendChild(newImage)
         document.getElementById("wrapper_upload").appendChild(imageUpload)
+
         let label = document.querySelector(".label");
         label.innerHTML = "Your Image Will Be Downloaded";
         label.style.color = 'crimson';
 
-        input.style.visibility = 'hidden';
+        document.getElementById("wrapper_upload").removeChild(input);
+
+        let classimage = document.querySelector(".image");
+        classimage.innerHTML = "Compress Another";
+        classimage.style.color = 'white';
 
         download(newImage1_url);
 
