@@ -25,7 +25,7 @@ li{
 }
 .header{
     border-width: 0 0 0.5px 0;
-    border-color: rgb(255, 225, 0,0.4);
+    border-color: rgba(255, 132, 0, 0.4);
     border-style: solid;
 }
 .logo{
@@ -75,7 +75,8 @@ ul.list,.header{
 #input{
     color: crimson;
     font-family: 'Silkscreen', cursive;
-
+    width: 220px;
+    margin-top: 10rem;    
 }
 .upload{
     text-align: center;
@@ -91,7 +92,7 @@ ul.list,.header{
     align-items: center;
     justify-content: center;
     border-style: double;
-    border-color: rgb(165, 42, 42 , 0.7);
+    border-color: rgb(165, 42, 42 );
     border-radius: 10px;
     height: 400px;
     width: 300px;
@@ -111,7 +112,7 @@ label{
     display: flex;
     flex-direction: column-reverse;
     border-style: double;
-    border-color: rgb(165, 42, 42 , 0.7);
+    border-color: rgb(165, 42, 42);
     border-radius: 10px;
     height: 400px;
     width: 300px;
