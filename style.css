@@ -35,6 +35,9 @@ li{
     width: 131.77px;
     height: 60px;
 }
+.image{
+    background-color:none;
+}
 section{
     margin-top: 10px ;
     display: flex;
